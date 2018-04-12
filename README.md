@@ -3,6 +3,7 @@
 When I run this webpack configuration, I see that resolve loader is finding the right url() and its path, but debug mode is saying NOT FOUND.
 
 ## Package Details
+```
 ➜  webpack_playground git:(resolve_url_loader_issue) ✗ npm ls sass-loader resolve-url-loader postcss-loader css-loader style-loader mini-css-extract-plugin node-sass file-loader webpack
 ├── css-loader@0.28.11
 ├── file-loader@1.1.11
@@ -13,6 +14,7 @@ When I run this webpack configuration, I see that resolve loader is finding the 
 ├── sass-loader@6.0.7
 ├── style-loader@0.20.3
 └── webpack@4.5.0
+```
 
 ## Instructions
 `npm install`
